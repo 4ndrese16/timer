@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(142,252,255,1) 0%, rgba(49,188,194,1) 35%, 
+    rgba(25,157,167,1) 65%, rgba(28,121,108,1) 100%);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color:rgb(0, 27, 68);
+}
+
+.container{
+    text-align: center;
+    padding: 30px;
+    margin:130px 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 60%;
+    border-radius: 80px;
+    max-width: 1000px;
+    min-width: 250px;
+}
+
+#calendar{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(132, 189, 190);
+    color: rgb(0, 27, 68);
+    border: 2px rgb(0, 27, 68) solid;
+}
+
+#calendar:hover{
+    background-color: rgb(63, 185, 189);
+}
+
+#calendar::-webkit-calendar-picker-indicator:hover{
+    cursor: pointer;
+}
+
+.time-remaining{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    font-size: 1.7em;
+}
+
+.time-remaining div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px 0;
+    text-transform: uppercase;
+    width: 3.5em;
+    padding: 5px;
+}
+
+.count{
+    font-size: 1.3em;
+}
+
+.buttons button{
+    width: 85px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: rgb(0, 27, 68);
+    margin: 0 30px;
+    padding: 5px;
+    border: 2px rgb(0, 27, 68) solid;
+    border-radius: 20px;
+    background-color: rgb(132, 189, 190);
+}
+
+.buttons button:hover{
+    background-color: rgb(63, 185, 189);
+    cursor: pointer;
+}
+
