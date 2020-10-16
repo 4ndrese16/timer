@@ -13,7 +13,7 @@ body{
     text-align: center;
     padding: 30px;
     margin:130px 0;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 60%;
     border-radius: 80px;
     max-width: 1000px;
@@ -74,7 +74,7 @@ body{
     background-color: rgb(132, 189, 190);
 }
 
-.buttons button:hover{
+.buttons button:hov0
     background-color: rgb(63, 185, 189);
     cursor: pointer;
 }
