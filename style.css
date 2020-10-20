@@ -10,6 +10,9 @@ body{
 }
 
 .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     text-align: center;
     padding: 30px;
     margin:130px 0;
@@ -41,6 +44,7 @@ body{
 
 .time-remaining{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 40px 0;
     font-size: 1.7em;
@@ -67,7 +71,7 @@ body{
     text-transform: uppercase;
     font-size: 1em;
     color: rgb(0, 27, 68);
-    margin: 0 30px;
+    margin: 5px 30px;
     padding: 5px;
     border: 2px rgb(0, 27, 68) solid;
     border-radius: 20px;
