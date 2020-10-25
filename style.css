@@ -37,8 +37,16 @@ body{
     background-color: rgb(63, 185, 189);
 }
 
+#calendar:focus{
+    outline: none;
+}
+
 #calendar::-webkit-calendar-picker-indicator:hover{
     cursor: pointer;
+}
+
+#calendar::-webkit-calendar-picker-indicator:focus{
+    outline: none;
 }
 
 .time-remaining{
@@ -80,6 +88,10 @@ body{
 .buttons button:hover{
     background-color: rgb(63, 185, 189);
     cursor: pointer;
+}
+
+.buttons button:focus{
+    outline: none;
 }
 
 @media (max-width: 900px) {
