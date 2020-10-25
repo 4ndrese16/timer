@@ -94,6 +94,7 @@ body{
     }
     
     .container{
+        max-width: 333px;
         min-width: 300px;
         font-size: 17px;
     }
